@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="127.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.ssau.systemprogramming.controller.RecordChangerController">
+   <children>
+      <TextField fx:id="nameField" layoutX="13.0" layoutY="51.0" />
+      <TextField fx:id="sizeField" layoutX="206.0" layoutY="51.0" />
+      <TextField fx:id="dateField" layoutX="402.0" layoutY="51.0" />
+      <Label layoutX="53.0" layoutY="14.0" text="File Name">
+         <font>
+            <Font name="Droid Sans Mono Dotted" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="14.0" text="Size">
+         <font>
+            <Font name="Droid Sans Mono Dotted" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="14.0" text="Creation date">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="okButton" layoutX="524.0" layoutY="87.0" mnemonicParsing="false" onMouseClicked="#okButtonClicked" text="OKEY" />
+   </children>
+</Pane>
